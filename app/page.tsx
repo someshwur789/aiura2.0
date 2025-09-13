@@ -52,33 +52,34 @@ export default function HomePage() {
           <h1 className="text-3xl md:text-4xl font-extrabold text-orange-400 drop-shadow-md">
             S.A. ENGINEERING COLLEGE
           </h1>
-          <p className="text-lg md:text-xl text-gray-300 mt-2">
-            Department of Artificial Intelligence and Data Science
-          </p>
-          <p className="text-sm md:text-base text-gray-400 italic mt-1">
-            (Organised by S.A. Engineering College)
-          </p>
         </header>
-
+<br></br>
+<br></br>
         {/* Event Title */}
         <main className="flex-1 flex flex-col items-center justify-center px-6 text-center space-y-10">
           <div className="animate-slide-up">
             <h2 className="text-2xl md:text-3xl font-semibold text-white mb-2">
               National Level Technical Symposium
             </h2>
+            <p className="text-lg md:text-xl text-gray-300 mt-2">
+            Department of Artificial Intelligence and Data Science
+          </p>
+          <p className="text-sm md:text-base text-gray-100 italic mt-1">
+            ORGANIZES
+          </p>
           </div>
 
           {/* AI Aura Logo (Responsive & Centered) */}
           <div className="animate-fade-in flex justify-center items-center w-full">
             <Image
-              src="/aura-logo.png"
+              src="/AIURA.png"
               alt="AI Aura 2.0"
               width={0}
               height={0}
               sizes="100vw"
-              className="mx-auto animate-pulse drop-shadow-lg w-64 md:w-96 h-auto object-contain"
+              className="mx-auto animate-pulse drop-shadow-lg w-100 md:w-[50rem] h-auto object-contain"
               priority
-            />
+            /> 
           </div>
 
           {/* Event Details */}
