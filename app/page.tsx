@@ -89,7 +89,7 @@ export default function HomePage() {
             </h3>
             <div className="space-y-4 text-lg">
               <DetailRow label="Event Date:" value="September 26, 2025" highlight />
-              <DetailRow label="Website Launch:" value="September 16, 2025" highlight />
+              <DetailRow label="Website Launch:" value="September 18, 2025" highlight />
               <DetailRow label="Registration:" value="Opens Soon" pulse />
             </div>
           </div>
